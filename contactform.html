@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<title>JavaScript Module FMA</title>
+		<link rel="stylesheet" href="diabetestool.css">
+		<script src="contactform.js"></script>
+    </head>
+    <body>
+        <main id="content">
+		<section>
+			<h1>Contact us</h1>
+		    <form id="contact" method="post">
+			    <fieldset>
+					<legend>Contact form</legend>
+					<div class="formbox">
+						<label for="fname">First Name:</label>
+						<input type="text" name="first" id="fname">
+						<span id="fnameerror" class="inputerror"></span>
+					</div>
+				    <div class="formbox">
+						<label for="lname">Last Name:</label>
+						<input type="text" name="last" id="lname">
+						<span id="lnameerror" class="inputerror"></span>
+					</div>
+					<div class="formbox">
+						<label for="title">Title:</label>
+						<select  id="title">
+							<option value="" selected> - Choose Title - </option>
+							<option value="mr">Mr.</option>
+							<option value="ms">Ms.</option>
+							<option value="mrs">Mrs.</option>
+							<option value="miss">Miss</option>
+							<option value="master">Master</option>
+						</select>
+						<span id="titleerror" class="inputerror"></span>
+					</div>
+					<div class="formbox" id="zhabox">
+						<div id="tooltip" class="hidetooltip">
+							<p>If you do not know your ZHA number, please contact your GP</p>
+						</div>
+						<label for="zha">
+							<img src="question.jpg" width="15" height="15" alt="question" id="question">
+							Health Authority Number:
+						</label>
+						<input type="text" name="zhanumber" id="zha" class="zhanormal">
+						<span id="zhaerror" class="inputerror"></span>
+						<span id="zhint"></span>
+					</div>	
+					<div class="formbox">
+						<label for="email">Email:</label>
+						<input type="text" name="mail" id="email">
+						<span id="emailerror" class="inputerror"></span>
+					</div>
+					<div class="formbox">
+						<label for="phone">Telephone Number:</label>
+						<input type="text" name="tphone" id="phone">
+						<span id="phoneerror" class="inputerror"></span>
+					</div>
+					<div>
+						<input type="submit" id="send" value="Submit">
+					</div>
+				</fieldset>
+			</form>
+			</section>
+        </main>
+    </body>
+</html>
+<!--
+Full name: Mircea Gancea
+Username: mgance01
+Module: Javascript
+Tutor: Tobi Brodie 
+ -->

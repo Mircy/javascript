@@ -1,0 +1,116 @@
+#content {
+	width: 90%;
+	border: 1px solid #000000;
+	margin: 0 auto;
+}
+
+#risk {
+	width: 60%;
+	margin: 1em 2em 2em 2em;
+}
+
+#risk div {
+	border-bottom: 1px solid #000000;
+}
+
+#risk div:last-child {
+	border: none;
+	margin: 1em 0 0 0;
+}
+
+h1 {
+	margin-left: 2em;
+}
+
+.hidebox {
+	display:none;
+}
+
+.showbox {
+	width: 60%;
+	display: block;
+	border: 1px solid #000000;
+	margin: 2em 0 2em 2em;
+}
+
+#resultbox h3 {
+	margin-top: 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#italic {
+	font-style: italic;
+}
+
+#contact {
+	width: 60%;
+	margin: 1em 2em 2em 2em;
+}
+
+#contact label {
+	float: left;
+	width: 15em;
+	font-weight: bold;
+	text-align: left;
+}
+
+.formbox {
+	margin: 1em 1em 1em 1em;
+	padding: 1em 0 1em 0;
+	border-bottom: 1px solid #000000;
+}
+
+.inputerror {
+	color: #ff0000;
+}
+
+#question {
+	float: left;
+	display: block;
+	margin: 0 1em 0 0;
+	padding: 0 0 1em 0;
+}
+
+.hidetooltip {
+	display: none;
+}
+
+.showtooltip {
+	position: absolute;
+	left: 10em; 
+	top: 15em;
+	display: block;
+	width: 12em;
+	height: 7em;
+	background: url(tooltip.jpg) no-repeat;
+}
+
+#tooltip p {
+	padding: 0 1em 0 1em;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+#zhabox {
+	display: block;
+	overflow: hidden;
+}
+
+.zhanormal {
+	font-style: normal;
+	color: #000000;
+}
+
+.zhaitalic {
+	font-style: italic;
+	color: #808080;
+}
+/*
+Full name: Mircea Gancea
+Username: mgance01
+Module: Javascript
+Tutor: Tobi Brodie 
+ */
